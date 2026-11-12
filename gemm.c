@@ -48,7 +48,7 @@ int main() {
   float* a = (float*)calloc(N*N, sizeof(float));
   float* b = (float*)calloc(N*N, sizeof(float));
   float* c = (float*)calloc(N*N, sizeof(float));
-  fill(a, false); fill(b, false); fill(c, false);
+  fill(a, false); fill(b, false); fill(c, true);
 
   int run = 5;
   for (int i = 0; i < run; ++i) {
